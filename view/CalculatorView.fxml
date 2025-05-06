@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<VBox spacing="10" xmlns:fx="http://javafx.com/fxml" fx:controller="controller.CalculatorController">
+    <GridPane hgap="10" vgap="10">
+        <TextField fx:id="display" GridPane.columnSpan="4" editable="false" prefHeight="50" style="-fx-font-size: 24px;"/>
+        <Button text="7" onAction="#onButtonClick" GridPane.rowIndex="1" GridPane.columnIndex="0" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="8" onAction="#onButtonClick" GridPane.rowIndex="1" GridPane.columnIndex="1" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="9" onAction="#onButtonClick" GridPane.rowIndex="1" GridPane.columnIndex="2" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="/" onAction="#onButtonClick" GridPane.rowIndex="1" GridPane.columnIndex="3" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+
+        <Button text="4" onAction="#onButtonClick" GridPane.rowIndex="2" GridPane.columnIndex="0" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="5" onAction="#onButtonClick" GridPane.rowIndex="2" GridPane.columnIndex="1" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="6" onAction="#onButtonClick" GridPane.rowIndex="2" GridPane.columnIndex="2" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="*" onAction="#onButtonClick" GridPane.rowIndex="2" GridPane.columnIndex="3" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+
+        <Button text="1" onAction="#onButtonClick" GridPane.rowIndex="3" GridPane.columnIndex="0" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="2" onAction="#onButtonClick" GridPane.rowIndex="3" GridPane.columnIndex="1" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="3" onAction="#onButtonClick" GridPane.rowIndex="3" GridPane.columnIndex="2" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="-" onAction="#onButtonClick" GridPane.rowIndex="3" GridPane.columnIndex="3" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+
+        <Button text="0" onAction="#onButtonClick" GridPane.rowIndex="4" GridPane.columnIndex="0" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="." onAction="#onButtonClick" GridPane.rowIndex="4" GridPane.columnIndex="1" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="=" onAction="#onButtonClick" GridPane.rowIndex="4" GridPane.columnIndex="2" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="+" onAction="#onButtonClick" GridPane.rowIndex="4" GridPane.columnIndex="3" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+    </GridPane>
+
+    <HBox spacing="10">
+        <Button text="C" onAction="#onButtonClick" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="\%" onAction="#onButtonClick" prefWidth="112" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="√" onAction="#onButtonClick" prefWidth="112" prefHeight="50" style="-fx-font-size: 22px;"/>
+    </HBox>
+</VBox>
