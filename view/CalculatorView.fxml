@@ -26,8 +26,8 @@
     </GridPane>
 
     <HBox spacing="10">
-        <Button text="C" onAction="#onButtonClick" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
-        <Button text="\%" onAction="#onButtonClick" prefWidth="112" prefHeight="50" style="-fx-font-size: 22px;"/>
-        <Button text="√" onAction="#onButtonClick" prefWidth="112" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="C" onAction="#onButtonClick" prefWidth="152" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="\%" onAction="#onButtonClick" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
+        <Button text="√" onAction="#onButtonClick" prefWidth="71" prefHeight="50" style="-fx-font-size: 22px;"/>
     </HBox>
 </VBox>
