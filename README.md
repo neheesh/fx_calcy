@@ -2,7 +2,7 @@
 
 A simple calculator desktop app built using JavaFX. It supports basic arithmetic operations and has a clean file structure for better readability and maintainability.
 
-![2025-05-06T15:56:21,357902355+05:30](https://github.com/user-attachments/assets/d0f80863-5f9b-4215-ac95-61b4219c7335)
+![2025-05-07T21:13:27,844586618+05:30](https://github.com/user-attachments/assets/5bcdc652-fa85-489a-a6d1-731c7493d2ba)
 
 ```
 fx_calcy
